@@ -1,3 +1,117 @@
-footer{
-    background:#ebebee;
+footer {
+  border-top: 7px solid #ef7f41;
+  background: #ebebee;
+}
+.footer-copyright {
+  background: #043b3f;
+  padding: 20px 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+.footer-top {
+  background: url("../images/background_footer.svg") no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.footer-infomations {
+  margin-top: 30px;
+}
+.items-f {
+  display: flex;
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: #fff;
+  }
+  .items-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    width: calc(100% - 55px);
+    font-size: 14px;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+.heading-footer {
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  margin-bottom: 15px;
+}
+.list-footer {
+  color: rgba(26, 230, 205, 0.3);
+  padding-left: 22px;
+  margin-bottom: 17px;
+  list-style: initial;
+  li {
+    margin-bottom: 17px;
+  }
+  a {
+    color: #bdcccc;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    position: relative;
+    transition: all 0.3s;
+    display: block;
+    text-decoration: none;
+  }
+}
+
+.btnFormPrice {
+  background: url("../images//btn_telegram.svg");
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 40px;
+  border: 0px;
+}
+.formPrice {
+  textarea,
+  input, select {
+    background: rgba(0, 47, 51, 0.3);
+    border-radius: 2px;
+    border: 1px solid rgba(0, 29, 25, 0.1);
+    color: white;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: normal;
+    margin-bottom: 2px;
+    transition: all 0.2s;
+    width: 100%;
+    padding: 12px 18px;
+  }
+  input, select {
+    height: 40px;
+    margin-bottom: 10px;
+  }
 }
