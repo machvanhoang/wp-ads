@@ -98,27 +98,27 @@
         <div class="col-md-4">
           <div class="heading-footer">
             <h3>Liên hệ báo giá</h3>
-            <div class="formPrice">
-              <form action="">
-                <div class="formPrice-note">
-                  <textarea name="" id="" cols="30" rows="5" placeholder="Mô tả ngắn về ý tưởng của bạn"></textarea>
+          </div>
+          <div class="formPrice">
+            <form action="" method="POST" role="form">
+              <div class="formPrice-note">
+                <textarea name="" id="" cols="30" rows="5" placeholder="Mô tả ngắn về ý tưởng của bạn"></textarea>
+              </div>
+              <div class="formPrice-idea">
+                <input type="text" id="idea" name="idea" autocomplete="off" placeholder="Lĩnh vực kinh doanh">
+              </div>
+              <div class="formPrice-price">
+                <select name="" id="">
+                  <option value="">Chi phí dự kiến</option>
+                </select>
+              </div>
+              <div class="formPrice-phone">
+                <div class="flex">
+                  <input type="text" id="phone" name="phone" autocomplete="off" placeholder="Số điện thoại của bạn">
+                  <button class="btnFormPrice"></button>
                 </div>
-                <div class="formPrice-idea">
-                  <input type="text" id="idea" name="idea" autocomplete="off" placeholder="Lĩnh vực kinh doanh">
-                </div>
-                <div class="formPrice-price">
-                  <select name="" id="">
-                    <option value="">Chi phí dự kiến</option>
-                  </select>
-                </div>
-                <div class="formPrice-phone">
-                  <div class="flex">
-                    <input type="text" id="phone" name="phone" autocomplete="off" placeholder="Số điện thoại của bạn">
-                    <button class="btnFormPrice"></button>
-                  </div>
-                </div>
-              </form>
-            </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>

@@ -54,6 +54,8 @@ footer {
 }
 
 .heading-footer {
+  margin-top: 1rem;
+  margin-bottom: 15px;
   h3 {
     font-size: 18px;
     font-weight: bold;
@@ -62,7 +64,6 @@ footer {
     position: relative;
     padding-bottom: 12px;
   }
-  margin-bottom: 15px;
 }
 .list-footer {
   color: rgba(26, 230, 205, 0.3);
@@ -94,6 +95,7 @@ footer {
   width: 55px;
   height: 40px;
   border: 0px;
+  cursor: pointer;
 }
 .formPrice {
   textarea,
@@ -113,5 +115,10 @@ footer {
   input, select {
     height: 40px;
     margin-bottom: 10px;
+  }
+}
+.formPrice-phone{
+  input{
+    margin-bottom: 0;
   }
 }
