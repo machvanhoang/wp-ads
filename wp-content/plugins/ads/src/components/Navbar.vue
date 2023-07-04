@@ -65,6 +65,12 @@
           </RouterLink>
         </li>
         <li class="nav-item">
+          <RouterLink class="nav-link" to="/email">
+            <span data-feather="file-text"></span>
+            Email
+          </RouterLink>
+        </li>
+        <li class="nav-item">
           <RouterLink class="nav-link" to="/configs">
             <span data-feather="file-text"></span>
             Configs

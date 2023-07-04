@@ -48,12 +48,69 @@
         <div class="business-list__item flex">
           <div class="business-list__item--left">
             <div class="number">01.</div>
+            <div class="title">
+              <h2>Thiết kế Mobile App</h2>
+            </div>
             <div class="des">
               <p>Thiết kế & lập trình ứng dụng di động là lĩnh vực rất mạnh của BMD. Các sản phẩm của chúng tôi có giao
                 diện đẹp mắt, chuẩn UI/UX, tốc độ xử lý tối ưu với quy trình làm việc theo tiêu chuẩn nước ngoài.</p>
             </div>
-            <div class="list">
-
+            <div class="business-list__wrap">
+              <ol>
+                <?php for ($i = 1; $i <= 4; $i++) : ?>
+                  <li class="business-list__wrap--item">
+                    <div class="business-list__wrap--item-box">
+                      <div class="box-icon">
+                        <div class="box-icon__check">
+                          <span>0<?= $i ?></span>
+                        </div>
+                      </div>
+                      <div class="box-content">
+                        <div class="box-content__title">
+                          <h3>Ứng dụng thương mại điện tử</h3>
+                          <p>Chúng tôi tích hợp các hình thức thanh toán qua ví, bảo kim, ngân lượng hoặc thẻ ATM để giải quyết tốt nhất các vấn đề của TMĐT.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                <?php endfor; ?>
+              </ol>
+            </div>
+          </div>
+          <div class="business-list__item--right">
+            <img src="<?= get_template_directory_uri() . "/assets/images/hero-img.png" ?>" alt="">
+          </div>
+        </div>
+        <div class="business-list__item business-list__item-reverse flex">
+          <div class="business-list__item--left">
+            <div class="number">02.</div>
+            <div class="title">
+              <h2>Thiết kế Web App</h2>
+            </div>
+            <div class="des">
+              <p>Thiết kế & lập trình ứng dụng di động là lĩnh vực rất mạnh của BMD. Các sản phẩm của chúng tôi có giao
+                diện đẹp mắt, chuẩn UI/UX, tốc độ xử lý tối ưu với quy trình làm việc theo tiêu chuẩn nước ngoài.</p>
+            </div>
+            <div class="business-list__wrap">
+              <ol>
+                <?php for ($i = 1; $i <= 4; $i++) : ?>
+                  <li class="business-list__wrap--item">
+                    <div class="business-list__wrap--item-box">
+                      <div class="box-icon">
+                        <div class="box-icon__check">
+                          <span>0<?= $i ?></span>
+                        </div>
+                      </div>
+                      <div class="box-content">
+                        <div class="box-content__title">
+                          <h3>Ứng dụng thương mại điện tử</h3>
+                          <p>Chúng tôi tích hợp các hình thức thanh toán qua ví, bảo kim, ngân lượng hoặc thẻ ATM để giải quyết tốt nhất các vấn đề của TMĐT.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                <?php endfor; ?>
+              </ol>
             </div>
           </div>
           <div class="business-list__item--right">
@@ -76,10 +133,7 @@
             <article class="item-why">
               <div class="box">
                 <figure>
-                  <img src="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-2-1.png"
-                    class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy"
-                    srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-2-1.png 440w, http://localhost/haweb.vn/wp-content/uploads/2022/11/values-2-1-300x245.png 300w"
-                    sizes="(max-width: 440px) 100vw, 440px">
+                  <img src="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-2-1.png" class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-2-1.png 440w, http://localhost/haweb.vn/wp-content/uploads/2022/11/values-2-1-300x245.png 300w" sizes="(max-width: 440px) 100vw, 440px">
                 </figure>
                 <h3 title="Hỗ trợ 24/7">Hỗ trợ 24/7</h3>
                 <div class="why-excerpt">
@@ -91,10 +145,7 @@
             <article class="item-why">
               <div class="box">
                 <figure>
-                  <img src="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-3.png"
-                    class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy"
-                    srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-3.png 440w, http://localhost/haweb.vn/wp-content/uploads/2022/11/values-3-300x245.png 300w"
-                    sizes="(max-width: 440px) 100vw, 440px">
+                  <img src="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-3.png" class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-3.png 440w, http://localhost/haweb.vn/wp-content/uploads/2022/11/values-3-300x245.png 300w" sizes="(max-width: 440px) 100vw, 440px">
                 </figure>
                 <h3 title="Tối ưu bot SEO Google">Tối ưu bot SEO Google</h3>
                 <div class="why-excerpt">
@@ -106,10 +157,7 @@
             <article class="item-why">
               <div class="box">
                 <figure>
-                  <img src="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-11.png"
-                    class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy"
-                    srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-11.png 440w, http://localhost/haweb.vn/wp-content/uploads/2022/11/values-11-300x245.png 300w"
-                    sizes="(max-width: 440px) 100vw, 440px">
+                  <img src="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-11.png" class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-11.png 440w, http://localhost/haweb.vn/wp-content/uploads/2022/11/values-11-300x245.png 300w" sizes="(max-width: 440px) 100vw, 440px">
                 </figure>
                 <h3 title="Kho giao diện phong phú">Kho giao diện phong phú</h3>
                 <div class="why-excerpt">
@@ -121,10 +169,7 @@
             <article class="item-why">
               <div class="box">
                 <figure>
-                  <img src="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-2-1.png"
-                    class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy"
-                    srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-2-1.png 440w, http://localhost/haweb.vn/wp-content/uploads/2022/11/values-2-1-300x245.png 300w"
-                    sizes="(max-width: 440px) 100vw, 440px">
+                  <img src="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-2-1.png" class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-2-1.png 440w, http://localhost/haweb.vn/wp-content/uploads/2022/11/values-2-1-300x245.png 300w" sizes="(max-width: 440px) 100vw, 440px">
                 </figure>
                 <h3 title="Tăng tốc độ chuyển đổi">Tăng tốc độ chuyển đổi</h3>
                 <div class="why-excerpt">
@@ -136,10 +181,7 @@
             <article class="item-why">
               <div class="box">
                 <figure>
-                  <img src="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-3.png"
-                    class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy"
-                    srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-3.png 440w, http://localhost/haweb.vn/wp-content/uploads/2022/11/values-3-300x245.png 300w"
-                    sizes="(max-width: 440px) 100vw, 440px">
+                  <img src="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-3.png" class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-3.png 440w, http://localhost/haweb.vn/wp-content/uploads/2022/11/values-3-300x245.png 300w" sizes="(max-width: 440px) 100vw, 440px">
                 </figure>
                 <h3 title="Thiết kế chuyên nghiệp">Thiết kế chuyên nghiệp</h3>
                 <div class="why-excerpt">
@@ -151,10 +193,7 @@
             <article class="item-why">
               <div class="box">
                 <figure>
-                  <img src="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-11.png"
-                    class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy"
-                    srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-11.png 440w, http://localhost/haweb.vn/wp-content/uploads/2022/11/values-11-300x245.png 300w"
-                    sizes="(max-width: 440px) 100vw, 440px">
+                  <img src="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-11.png" class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/values-11.png 440w, http://localhost/haweb.vn/wp-content/uploads/2022/11/values-11-300x245.png 300w" sizes="(max-width: 440px) 100vw, 440px">
                 </figure>
                 <h3 title="Tiết kiệm chi phí">Tiết kiệm chi phí</h3>
                 <div class="why-excerpt">
@@ -179,18 +218,15 @@
         <div class="c-container">
           <div class="row features-wrap__grid">
             <div class="col-md-6 features-wrap__grid--left">
-              <img src="http://localhost/haweb.vn/wp-content/themes/ads/assets/img/features.png" class="img-fluid"
-                alt="Chúng tôi thiết kế những gì?">
+              <img src="http://localhost/haweb.vn/wp-content/themes/ads/assets/img/features.png" class="img-fluid" alt="Chúng tôi thiết kế những gì?">
             </div>
             <div class="col-md-6 features-wrap__grid--right">
               <div class="row">
                 <article class="col-md-6 item-workinge m-30">
                   <div class="feature-box flex align-center" title="Admin dễ sử dụng">
                     <span class="svg">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-check-lg" viewBox="0 0 16 16">
-                        <path
-                          d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                       </svg>
                     </span>
                     <h3>Admin dễ sử dụng</h3>
@@ -199,10 +235,8 @@
                 <article class="col-md-6 item-workinge mb-30">
                   <div class="feature-box flex align-center" title="Bảo hành trọn đời">
                     <span class="svg">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-check-lg" viewBox="0 0 16 16">
-                        <path
-                          d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                       </svg>
                     </span>
                     <h3>Bảo hành trọn đời</h3>
@@ -211,10 +245,8 @@
                 <article class="col-md-6 item-workinge mb-30">
                   <div class="feature-box flex align-center" title="Đẹp &amp; Đẳng cấp">
                     <span class="svg">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-check-lg" viewBox="0 0 16 16">
-                        <path
-                          d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                       </svg>
                     </span>
                     <h3>Đẹp &amp; Đẳng cấp</h3>
@@ -223,10 +255,8 @@
                 <article class="col-md-6 item-workinge mb-30">
                   <div class="feature-box flex align-center" title="Tối ưu tốc độ tải trang">
                     <span class="svg">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-check-lg" viewBox="0 0 16 16">
-                        <path
-                          d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                       </svg>
                     </span>
                     <h3>Tối ưu tốc độ tải trang</h3>
@@ -235,10 +265,8 @@
                 <article class="col-md-6 item-workinge mb-30">
                   <div class="feature-box flex align-center" title="PHP, React, Vue">
                     <span class="svg">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-check-lg" viewBox="0 0 16 16">
-                        <path
-                          d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                       </svg>
                     </span>
                     <h3>PHP, React, Vue</h3>
@@ -247,10 +275,8 @@
                 <article class="col-md-6 item-workinge mb-30">
                   <div class="feature-box flex align-center" title="Hệ thống Bảo mật">
                     <span class="svg">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-check-lg" viewBox="0 0 16 16">
-                        <path
-                          d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                       </svg>
                     </span>
                     <h3>Hệ thống Bảo mật</h3>
@@ -259,10 +285,8 @@
                 <article class="col-md-6 item-workinge mb-30">
                   <div class="feature-box flex align-center" title="Tích hợp SEO Onpage">
                     <span class="svg">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-check-lg" viewBox="0 0 16 16">
-                        <path
-                          d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                       </svg>
                     </span>
                     <h3>Tích hợp SEO Onpage</h3>
@@ -271,10 +295,8 @@
                 <article class="col-md-6 item-workinge mb-30">
                   <div class="feature-box flex align-center" title="100% Giao diện Mobile">
                     <span class="svg">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-check-lg" viewBox="0 0 16 16">
-                        <path
-                          d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                       </svg>
                     </span>
                     <h3>100% Giao diện Mobile</h3>
@@ -302,9 +324,7 @@
               <div class="price-tab__item text-center">
                 <div class="item__icon rounded-circle">
                   <svg width="18" height="23" viewBox="0 0 18 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M9 7.12819L11.5032 12.7082L18 13.1907L13.0505 17.1213L14.5623 22.9996L9 19.8499L3.4377 22.9996L4.94953 17.1213L0 13.1907L6.49684 12.7082L9 7.12819ZM4.26814 -0.000366211V9.86994H1.90221V-0.000366211H4.26814ZM16.0978 -0.000366211V9.86994H13.7319V-0.000366211H16.0978ZM10.183 -0.000366211V5.48314H7.81703V-0.000366211H10.183Z"
-                      fill="white"></path>
+                    <path d="M9 7.12819L11.5032 12.7082L18 13.1907L13.0505 17.1213L14.5623 22.9996L9 19.8499L3.4377 22.9996L4.94953 17.1213L0 13.1907L6.49684 12.7082L9 7.12819ZM4.26814 -0.000366211V9.86994H1.90221V-0.000366211H4.26814ZM16.0978 -0.000366211V9.86994H13.7319V-0.000366211H16.0978ZM10.183 -0.000366211V5.48314H7.81703V-0.000366211H10.183Z" fill="white"></path>
                   </svg>
                 </div>
                 <p class="item__name font-weight-bold text-uppercase name-package">BASIC</p>
@@ -336,9 +356,7 @@
               <div class="price-tab__item text-center">
                 <div class="item__icon rounded-circle">
                   <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M11 -0.000366211C9.7075 -0.000366211 8.64286 1.1288 8.64286 2.49963C8.64286 3.43713 9.14021 4.26047 9.87093 4.68713L7.56171 9.58297L3.95214 6.8488C4.42593 6.38963 4.71429 5.72463 4.71429 4.99963C4.71429 3.6288 3.64964 2.49963 2.35714 2.49963C1.06464 2.49963 0 3.6288 0 4.99963C0 6.12297 0.727571 7.05713 1.694 7.36963L3.14286 15.833V19.9996H18.8571V15.833L20.306 7.36963C21.2724 7.05713 22 6.12297 22 4.99963C22 3.6288 20.9354 2.49963 19.6429 2.49963C18.3504 2.49963 17.2857 3.6288 17.2857 4.99963C17.2857 5.72547 17.5741 6.38963 18.0471 6.8488L14.4375 9.58297L12.1291 4.68713C12.4995 4.47233 12.8089 4.15608 13.0249 3.77133C13.2409 3.38658 13.3556 2.94742 13.3571 2.49963C13.3571 1.1288 12.2925 -0.000366211 11 -0.000366211ZM11 1.6663C11.4424 1.6663 11.7857 2.0313 11.7857 2.49963C11.7857 2.9688 11.4416 3.33297 11 3.33297C10.5576 3.33297 10.2143 2.96797 10.2143 2.49963C10.2143 2.03047 10.5584 1.6663 11 1.6663ZM2.35714 4.1663C2.7995 4.1663 3.14286 4.5313 3.14286 4.99963C3.14286 5.4688 2.79871 5.83297 2.35714 5.83297C1.91479 5.83297 1.57143 5.46797 1.57143 4.99963C1.57143 4.53047 1.91557 4.1663 2.35714 4.1663ZM19.6429 4.1663C20.0852 4.1663 20.4286 4.5313 20.4286 4.99963C20.4286 5.4688 20.0844 5.83297 19.6429 5.83297C19.2005 5.83297 18.8571 5.46797 18.8571 4.99963C18.8571 4.53047 19.2013 4.1663 19.6429 4.1663ZM11 6.0413L13.431 11.198L14.6096 11.5105L18.5381 8.5413L17.4326 14.9996H4.56736L3.46264 8.5413L7.39121 11.5105L8.56979 11.198L11 6.0413ZM4.71429 16.6663H17.2857V18.333H4.71429V16.6663Z"
-                      fill="#FFE351"></path>
+                    <path d="M11 -0.000366211C9.7075 -0.000366211 8.64286 1.1288 8.64286 2.49963C8.64286 3.43713 9.14021 4.26047 9.87093 4.68713L7.56171 9.58297L3.95214 6.8488C4.42593 6.38963 4.71429 5.72463 4.71429 4.99963C4.71429 3.6288 3.64964 2.49963 2.35714 2.49963C1.06464 2.49963 0 3.6288 0 4.99963C0 6.12297 0.727571 7.05713 1.694 7.36963L3.14286 15.833V19.9996H18.8571V15.833L20.306 7.36963C21.2724 7.05713 22 6.12297 22 4.99963C22 3.6288 20.9354 2.49963 19.6429 2.49963C18.3504 2.49963 17.2857 3.6288 17.2857 4.99963C17.2857 5.72547 17.5741 6.38963 18.0471 6.8488L14.4375 9.58297L12.1291 4.68713C12.4995 4.47233 12.8089 4.15608 13.0249 3.77133C13.2409 3.38658 13.3556 2.94742 13.3571 2.49963C13.3571 1.1288 12.2925 -0.000366211 11 -0.000366211ZM11 1.6663C11.4424 1.6663 11.7857 2.0313 11.7857 2.49963C11.7857 2.9688 11.4416 3.33297 11 3.33297C10.5576 3.33297 10.2143 2.96797 10.2143 2.49963C10.2143 2.03047 10.5584 1.6663 11 1.6663ZM2.35714 4.1663C2.7995 4.1663 3.14286 4.5313 3.14286 4.99963C3.14286 5.4688 2.79871 5.83297 2.35714 5.83297C1.91479 5.83297 1.57143 5.46797 1.57143 4.99963C1.57143 4.53047 1.91557 4.1663 2.35714 4.1663ZM19.6429 4.1663C20.0852 4.1663 20.4286 4.5313 20.4286 4.99963C20.4286 5.4688 20.0844 5.83297 19.6429 5.83297C19.2005 5.83297 18.8571 5.46797 18.8571 4.99963C18.8571 4.53047 19.2013 4.1663 19.6429 4.1663ZM11 6.0413L13.431 11.198L14.6096 11.5105L18.5381 8.5413L17.4326 14.9996H4.56736L3.46264 8.5413L7.39121 11.5105L8.56979 11.198L11 6.0413ZM4.71429 16.6663H17.2857V18.333H4.71429V16.6663Z" fill="#FFE351"></path>
                   </svg>
                 </div>
                 <div class="highlights-tag">Nổi bật</div>
@@ -372,19 +390,12 @@
               <div class="price-tab__item text-center">
                 <div class="item__icon rounded-circle">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M1.66024 8.82198L11.3985 21.4529C11.4693 21.5452 11.5604 21.6199 11.6646 21.6714C11.7689 21.7228 11.8836 21.7496 11.9999 21.7496C12.1162 21.7496 12.2309 21.7228 12.3352 21.6714C12.4395 21.6199 12.5306 21.5452 12.6013 21.4529L22.3396 8.82198C22.4354 8.69731 22.4909 8.54646 22.4989 8.38946C22.5068 8.23247 22.4668 8.07678 22.3841 7.94307L19.0809 2.61104C19.0129 2.5007 18.9178 2.40957 18.8046 2.34631C18.6915 2.28306 18.5641 2.24978 18.4345 2.24963H5.5654C5.43578 2.24978 5.30835 2.28306 5.19522 2.34631C5.08208 2.40957 4.987 2.5007 4.91899 2.61104L1.61571 7.94307C1.53305 8.07678 1.49304 8.23247 1.50099 8.38946C1.50895 8.54646 1.56449 8.69731 1.66024 8.82198V8.82198Z"
-                      stroke="#D42027" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M2.25 8.24963H21.75" stroke="#D42027" stroke-width="1.3" stroke-linecap="round"
-                      stroke-linejoin="round"></path>
-                    <path d="M18.75 2.99963L16.5 8.24963L12 2.24963" stroke="#D42027" stroke-width="1.3"
-                      stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M5.25 2.99963L7.5 8.24963L12 2.24963" stroke="#D42027" stroke-width="1.3"
-                      stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M12 20.9996L7.5 8.24963" stroke="#D42027" stroke-width="1.3" stroke-linecap="round"
-                      stroke-linejoin="round"></path>
-                    <path d="M12 20.9996L16.5 8.24963" stroke="#D42027" stroke-width="1.3" stroke-linecap="round"
-                      stroke-linejoin="round"></path>
+                    <path d="M1.66024 8.82198L11.3985 21.4529C11.4693 21.5452 11.5604 21.6199 11.6646 21.6714C11.7689 21.7228 11.8836 21.7496 11.9999 21.7496C12.1162 21.7496 12.2309 21.7228 12.3352 21.6714C12.4395 21.6199 12.5306 21.5452 12.6013 21.4529L22.3396 8.82198C22.4354 8.69731 22.4909 8.54646 22.4989 8.38946C22.5068 8.23247 22.4668 8.07678 22.3841 7.94307L19.0809 2.61104C19.0129 2.5007 18.9178 2.40957 18.8046 2.34631C18.6915 2.28306 18.5641 2.24978 18.4345 2.24963H5.5654C5.43578 2.24978 5.30835 2.28306 5.19522 2.34631C5.08208 2.40957 4.987 2.5007 4.91899 2.61104L1.61571 7.94307C1.53305 8.07678 1.49304 8.23247 1.50099 8.38946C1.50895 8.54646 1.56449 8.69731 1.66024 8.82198V8.82198Z" stroke="#D42027" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M2.25 8.24963H21.75" stroke="#D42027" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M18.75 2.99963L16.5 8.24963L12 2.24963" stroke="#D42027" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5.25 2.99963L7.5 8.24963L12 2.24963" stroke="#D42027" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M12 20.9996L7.5 8.24963" stroke="#D42027" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M12 20.9996L16.5 8.24963" stroke="#D42027" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"></path>
                   </svg>
                 </div>
                 <p class="item__name font-weight-bold text-uppercase name-package">BUSINESS</p>
@@ -430,13 +441,11 @@
     <div class="project-wrap">
       <div class="c-container">
         <div class="row">
-          <?php for ($i = 1; $i <= 15; $i++): ?>
+          <?php for ($i = 1; $i <= 15; $i++) : ?>
             <div class="col-md-4 mb-4">
               <div class="box-project">
                 <div class="box-project__image">
-                  <img class="img-fluid"
-                    src="<?= get_template_directory_uri() . "/assets/images/gallery/build/sp" . ($i < 10 ? '0' . $i : $i) . ".jpg" ?>"
-                    alt="">
+                  <img class="img-fluid" src="<?= get_template_directory_uri() . "/assets/images/gallery/build/sp" . ($i < 10 ? '0' . $i : $i) . ".jpg" ?>" alt="">
                 </div>
                 <div class="box-project__info">
                   <h4>SP0
@@ -472,11 +481,7 @@
             <div class="post-box">
               <div class="post-img">
                 <figure>
-                  <img width="267" height="267"
-                    src="http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632.jpg"
-                    class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy"
-                    srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632.jpg 600w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632-300x300.jpg 300w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632-150x150.jpg 150w"
-                    sizes="(max-width: 267px) 100vw, 267px">
+                  <img width="267" height="267" src="http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632.jpg" class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632.jpg 600w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632-300x300.jpg 300w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632-150x150.jpg 150w" sizes="(max-width: 267px) 100vw, 267px">
                 </figure>
               </div>
               <div class="post-time">
@@ -488,20 +493,14 @@
                 <p>Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ
                   cho in ấn. Lorem Ipsum đã được sử dụng như</p>
               </div>
-              <a href="http://localhost/haweb.vn/infomations/ip-tinh-la-gi-huong-dan-cach-cai-dat-ip-tinh-moi-nhat-2023"
-                title="IP tĩnh là gì? Hướng dẫn cách cài đặt IP tĩnh mới nhất 2023"
-                class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
+              <a href="http://localhost/haweb.vn/infomations/ip-tinh-la-gi-huong-dan-cach-cai-dat-ip-tinh-moi-nhat-2023" title="IP tĩnh là gì? Hướng dẫn cách cài đặt IP tĩnh mới nhất 2023" class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </article>
           <article class="col-md-4 item-blogs">
             <div class="post-box">
               <div class="post-img">
                 <figure>
-                  <img width="267" height="267"
-                    src="http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-2-3013-8863.jpg"
-                    class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy"
-                    srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-2-3013-8863.jpg 540w, http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-2-3013-8863-300x300.jpg 300w, http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-2-3013-8863-150x150.jpg 150w"
-                    sizes="(max-width: 267px) 100vw, 267px">
+                  <img width="267" height="267" src="http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-2-3013-8863.jpg" class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-2-3013-8863.jpg 540w, http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-2-3013-8863-300x300.jpg 300w, http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-2-3013-8863-150x150.jpg 150w" sizes="(max-width: 267px) 100vw, 267px">
                 </figure>
               </div>
               <div class="post-time">
@@ -513,20 +512,14 @@
                 <p>Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ
                   cho in ấn. Lorem Ipsum đã được sử dụng như</p>
               </div>
-              <a href="http://localhost/haweb.vn/infomations/thong-tin-ve-viec-xay-dung-trang-web-chat-luong-cao-tu-google"
-                title="Thông tin về việc xây dựng trang web chất lượng cao từ Google"
-                class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
+              <a href="http://localhost/haweb.vn/infomations/thong-tin-ve-viec-xay-dung-trang-web-chat-luong-cao-tu-google" title="Thông tin về việc xây dựng trang web chất lượng cao từ Google" class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </article>
           <article class="col-md-4 item-blogs">
             <div class="post-box">
               <div class="post-img">
                 <figure>
-                  <img width="267" height="267"
-                    src="http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-5-3937-5589.jpg"
-                    class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy"
-                    srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-5-3937-5589.jpg 540w, http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-5-3937-5589-300x300.jpg 300w, http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-5-3937-5589-150x150.jpg 150w"
-                    sizes="(max-width: 267px) 100vw, 267px">
+                  <img width="267" height="267" src="http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-5-3937-5589.jpg" class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-5-3937-5589.jpg 540w, http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-5-3937-5589-300x300.jpg 300w, http://localhost/haweb.vn/wp-content/uploads/2022/11/poduct-5-3937-5589-150x150.jpg 150w" sizes="(max-width: 267px) 100vw, 267px">
                 </figure>
               </div>
               <div class="post-time">
@@ -538,20 +531,14 @@
                 <p>Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ
                   cho in ấn. Lorem Ipsum đã được sử dụng như</p>
               </div>
-              <a href="http://localhost/haweb.vn/infomations/5-cach-bao-mat-website-wordpress-tu-a-z-hieu-qua-nhat"
-                title="5 cách bảo mật website WordPress từ A – Z hiệu quả nhất"
-                class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
+              <a href="http://localhost/haweb.vn/infomations/5-cach-bao-mat-website-wordpress-tu-a-z-hieu-qua-nhat" title="5 cách bảo mật website WordPress từ A – Z hiệu quả nhất" class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </article>
           <article class="col-md-4 item-blogs mt-4">
             <div class="post-box">
               <div class="post-img">
                 <figure>
-                  <img width="267" height="267"
-                    src="http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-3939.jpg"
-                    class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy"
-                    srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-3939.jpg 600w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-3939-300x300.jpg 300w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-3939-150x150.jpg 150w"
-                    sizes="(max-width: 267px) 100vw, 267px">
+                  <img width="267" height="267" src="http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-3939.jpg" class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-3939.jpg 600w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-3939-300x300.jpg 300w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-3939-150x150.jpg 150w" sizes="(max-width: 267px) 100vw, 267px">
                 </figure>
               </div>
               <div class="post-time">
@@ -563,20 +550,14 @@
                 <p>Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ
                   cho in ấn. Lorem Ipsum đã được sử dụng như</p>
               </div>
-              <a href="http://localhost/haweb.vn/infomations/xampp-la-gi-huong-dan-cai-dat-su-dung-xampp-2023"
-                title="XAMPP là gì? Hướng dẫn cài đặt &amp; sử dụng XAMPP 2023"
-                class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
+              <a href="http://localhost/haweb.vn/infomations/xampp-la-gi-huong-dan-cai-dat-su-dung-xampp-2023" title="XAMPP là gì? Hướng dẫn cài đặt &amp; sử dụng XAMPP 2023" class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </article>
           <article class="col-md-4 item-blogs mt-4">
             <div class="post-box">
               <div class="post-img">
                 <figure>
-                  <img width="267" height="267"
-                    src="http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-4680.jpg"
-                    class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy"
-                    srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-4680.jpg 600w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-4680-300x300.jpg 300w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-4680-150x150.jpg 150w"
-                    sizes="(max-width: 267px) 100vw, 267px">
+                  <img width="267" height="267" src="http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-4680.jpg" class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-4680.jpg 600w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-4680-300x300.jpg 300w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image2-4680-150x150.jpg 150w" sizes="(max-width: 267px) 100vw, 267px">
                 </figure>
               </div>
               <div class="post-time">
@@ -588,20 +569,14 @@
                 <p>Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ
                   cho in ấn. Lorem Ipsum đã được sử dụng như</p>
               </div>
-              <a href="http://localhost/haweb.vn/infomations/tai-sao-can-thiet-ke-website-4-0-cac-xu-huong-web-4-0-noi-bat"
-                title="Tại sao cần thiết kế website 4.0? Các xu hướng web 4.0 nổi bật"
-                class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
+              <a href="http://localhost/haweb.vn/infomations/tai-sao-can-thiet-ke-website-4-0-cac-xu-huong-web-4-0-noi-bat" title="Tại sao cần thiết kế website 4.0? Các xu hướng web 4.0 nổi bật" class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </article>
           <article class="col-md-4 item-blogs mt-4">
             <div class="post-box">
               <div class="post-img">
                 <figure>
-                  <img width="267" height="267"
-                    src="http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632.jpg"
-                    class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy"
-                    srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632.jpg 600w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632-300x300.jpg 300w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632-150x150.jpg 150w"
-                    sizes="(max-width: 267px) 100vw, 267px">
+                  <img width="267" height="267" src="http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632.jpg" class="img-fluid wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632.jpg 600w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632-300x300.jpg 300w, http://localhost/haweb.vn/wp-content/uploads/2022/11/image3-2632-150x150.jpg 150w" sizes="(max-width: 267px) 100vw, 267px">
                 </figure>
               </div>
               <div class="post-time">
@@ -613,9 +588,7 @@
                 <p>Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ
                   cho in ấn. Lorem Ipsum đã được sử dụng như</p>
               </div>
-              <a href="http://localhost/haweb.vn/infomations/mo-hinh-aida-la-gi-cach-ung-dung-aida-trong-content-marketing"
-                title="Mô hình AIDA là gì? Cách ứng dụng AIDA trong content marketing"
-                class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
+              <a href="http://localhost/haweb.vn/infomations/mo-hinh-aida-la-gi-cach-ung-dung-aida-trong-content-marketing" title="Mô hình AIDA là gì? Cách ứng dụng AIDA trong content marketing" class="readmore stretched-link mt-auto"><span>Đọc thêm</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </article>
         </div>
@@ -638,17 +611,13 @@
                   <span>Lý do sử dụng PHP thiết kế website?</span>
                   <div>
                     <span class="svg svg-down">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-caret-down" viewBox="0 0 16 16">
-                        <path
-                          d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                        <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
                       </svg>
                     </span>
                     <span class="svg svg-up">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-caret-up" viewBox="0 0 16 16">
-                        <path
-                          d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up" viewBox="0 0 16 16">
+                        <path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
                       </svg>
                     </span>
                   </div>
@@ -682,17 +651,13 @@
                   <span>Website làm bằng WordPress có bán hàng được không?</span>
                   <div>
                     <span class="svg svg-down">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-caret-down" viewBox="0 0 16 16">
-                        <path
-                          d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                        <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
                       </svg>
                     </span>
                     <span class="svg svg-up">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-caret-up" viewBox="0 0 16 16">
-                        <path
-                          d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up" viewBox="0 0 16 16">
+                        <path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
                       </svg>
                     </span>
                   </div>
@@ -723,17 +688,13 @@
                   <span>Đơn vị nào thiết kế Website uy tín tại TP Hồ Chí Minh?</span>
                   <div>
                     <span class="svg svg-down">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-caret-down" viewBox="0 0 16 16">
-                        <path
-                          d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                        <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
                       </svg>
                     </span>
                     <span class="svg svg-up">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-caret-up" viewBox="0 0 16 16">
-                        <path
-                          d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up" viewBox="0 0 16 16">
+                        <path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
                       </svg>
                     </span>
                   </div>
@@ -746,22 +707,14 @@
                     nghiệm, dịch vụ, chất lượng sản phẩm, giá cả, đánh giá của khách hàng, v.v. Sau đây là một số đơn vị
                     thiết kế website uy tín tại TP Hồ Chí Minh mà bạn có thể tham khảo:</p>
                   <ol>
-                    <li>Cleverus Consulting – <a href="https://cleverus.com/" target="_new"
-                        rel="noopener">https://cleverus.com/</a></li>
-                    <li>Adamo Digital – <a href="https://www.adamodigital.com/" target="_new"
-                        rel="noopener">https://www.adamodigital.com/</a></li>
-                    <li><strong>Hoang Anh Ads</strong> – <a href="https://haweb.vn/" target="_new"
-                        rel="noopener">https://haweb.vn/</a></li>
-                    <li>DIGIWEBSITE – <a href="https://digiwebsite.vn/" target="_new"
-                        rel="noopener">https://digiwebsite.vn/</a></li>
-                    <li>Thiết kế website Minh Đức – <a href="https://minhducweb.com/" target="_new"
-                        rel="noopener">https://minhducweb.com/</a></li>
-                    <li>Công ty TNHH thiết kế website Tâm An – <a href="https://tamandesign.com/" target="_new"
-                        rel="noopener">https://tamandesign.com/</a></li>
-                    <li>TTDigitals – <a href="https://ttdigitals.com/" target="_new"
-                        rel="noopener">https://ttdigitals.com/</a></li>
-                    <li>FPT Software – <a href="https://www.fpt-software.com/" target="_new"
-                        rel="noopener">https://www.fpt-software.com/</a></li>
+                    <li>Cleverus Consulting – <a href="https://cleverus.com/" target="_new" rel="noopener">https://cleverus.com/</a></li>
+                    <li>Adamo Digital – <a href="https://www.adamodigital.com/" target="_new" rel="noopener">https://www.adamodigital.com/</a></li>
+                    <li><strong>Hoang Anh Ads</strong> – <a href="https://haweb.vn/" target="_new" rel="noopener">https://haweb.vn/</a></li>
+                    <li>DIGIWEBSITE – <a href="https://digiwebsite.vn/" target="_new" rel="noopener">https://digiwebsite.vn/</a></li>
+                    <li>Thiết kế website Minh Đức – <a href="https://minhducweb.com/" target="_new" rel="noopener">https://minhducweb.com/</a></li>
+                    <li>Công ty TNHH thiết kế website Tâm An – <a href="https://tamandesign.com/" target="_new" rel="noopener">https://tamandesign.com/</a></li>
+                    <li>TTDigitals – <a href="https://ttdigitals.com/" target="_new" rel="noopener">https://ttdigitals.com/</a></li>
+                    <li>FPT Software – <a href="https://www.fpt-software.com/" target="_new" rel="noopener">https://www.fpt-software.com/</a></li>
                   </ol>
                   <p>Lưu ý rằng danh sách này chỉ là một số đơn vị được đánh giá cao và nổi tiếng tại TP Hồ Chí Minh.
                     Bạn cần tìm hiểu và đánh giá thêm trước khi lựa chọn đơn vị thiết kế website phù hợp với nhu cầu và
@@ -775,17 +728,13 @@
                   <span>Làm website WordPress hết bao nhiêu tiền?</span>
                   <div>
                     <span class="svg svg-down">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-caret-down" viewBox="0 0 16 16">
-                        <path
-                          d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                        <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
                       </svg>
                     </span>
                     <span class="svg svg-up">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-caret-up" viewBox="0 0 16 16">
-                        <path
-                          d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up" viewBox="0 0 16 16">
+                        <path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
                       </svg>
                     </span>
                   </div>
@@ -820,17 +769,13 @@
                   <span>Tại sao nên thiết kế Website?</span>
                   <div>
                     <span class="svg svg-down">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-caret-down" viewBox="0 0 16 16">
-                        <path
-                          d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                        <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
                       </svg>
                     </span>
                     <span class="svg svg-up">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-caret-up" viewBox="0 0 16 16">
-                        <path
-                          d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up" viewBox="0 0 16 16">
+                        <path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
                       </svg>
                     </span>
                   </div>

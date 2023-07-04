@@ -6,6 +6,7 @@ import About from "./pages/About.vue";
 import Contact from "./pages/Contact.vue";
 import Social from "./pages/Social.vue";
 import HeaderFooter from "./pages/HeaderFooter.vue";
+import Email from "./pages/Email.vue";
 import Configs from "./pages/Configs.vue";
 const routes = [
   { path: "/", component: Home },
@@ -13,6 +14,7 @@ const routes = [
   { path: "/contact", component: Contact },
   { path: "/social", component: Social },
   { path: "/header-footer", component: HeaderFooter },
+  { path: "/email", component: Email },
   { path: "/configs", component: Configs },
 ];
 
