@@ -1,5 +1,6 @@
 .about {
   padding-top: 80px;
+  padding-bottom: 40px;
 
   .about-left {
     width: 100%;
@@ -73,13 +74,15 @@
 .business {
   padding: 80px 0;
   background: #fff;
-  .business-list{
+
+  .business-list {
     margin-top: 3rem;
   }
 }
 
 .business-list__item {
   justify-content: space-between;
+
   &:not(:last-child) {
     margin-bottom: 10rem;
   }
@@ -221,6 +224,13 @@
     transition: 0.3s;
     cursor: pointer;
     background: #fff;
+
+    &:hover {
+      .svg {
+        background: #1cc88a;
+        color: #fff;
+      }
+    }
 
     h3 {
       font-size: 18px;
@@ -753,6 +763,7 @@
     font-size: 15px;
     line-height: 1.5;
   }
+
 }
 
 .recent-blog-posts .post-box .post-title {
@@ -781,6 +792,10 @@
     border-radius: 3px;
     background: transparent linear-gradient(179deg, #1ae6cd 0%, #08afb8 100%) 0% 0% no-repeat padding-box;
     color: #fff;
+  }
+
+  &:hover~.post-title {
+    color: #111;
   }
 }
 

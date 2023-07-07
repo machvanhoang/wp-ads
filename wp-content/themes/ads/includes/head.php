@@ -22,10 +22,17 @@
   <meta name="twitter:description" content="<?php echo $description ?>">
   <meta name="twitter:image" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/owl/owl.theme.default.min.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/app.css">
+  <?php if (!is_home()) :
+    global $page;
+  ?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/<?php echo $page ?>.css">
+  <?php endif; ?>
   <?php wp_head(); ?>
 </head>
